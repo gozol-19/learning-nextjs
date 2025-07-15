@@ -1,5 +1,5 @@
-import bcrypt from 'bcryptjs'; // ✅ Will work locally AND on Vercel
 
+import bcrypt from 'bcryptjs';
 import postgres from 'postgres';
 import { invoices, customers, revenue, users } from '../lib/placeholder-data';
 
